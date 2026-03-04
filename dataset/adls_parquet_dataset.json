@@ -1,0 +1,22 @@
+{
+	"name": "adls_parquet_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adls_ln_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "file2",
+				"folderPath": "csvfiles",
+				"fileSystem": "destination"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

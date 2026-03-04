@@ -1,0 +1,9 @@
+{
+	"name": "adf-healthcare-development",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b0e38f1f-4cb5-46f4-b6c3-4bc405a8041b",
+		"tenantId": "301a81d3-ed7d-43ed-b290-ae0d3b85ce5c"
+	}
+}
